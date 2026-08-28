@@ -2,15 +2,32 @@ owner: identitrain
 repo: central.app.status
 
 sites:
-  - name: Identitrain Central
-    url: https://central.identitrain.com
+  - name: Central (public site)
+    url: https://central.identitrain.com/
+  - name: Course catalogue
+    url: https://central.identitrain.com/tms/events
+  - name: Conductor
+    url: https://conductor.identitrain.com/
+    expectedStatusCodes: [307]
+  - name: Content delivery
+    url: https://content.identitrain.com/health
+  - name: Courseware
+    url: https://courseware.identitrain.com/health
+  - name: Background jobs
+    url: https://jobs.identitrain.com/health
+  - name: Mail relay
+    url: https://mail.identitrain.com/health
 
 status-website:
   cname: status.identitrain.com
   logoUrl: https://central.identitrain.com/images/logo-nav.webp
   name: Identitrain Service Status
-  introTitle: "**Identitrain** | Unlock your full potential in IAM"
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  introTitle: Identitrain Central — Service Status
+  introMessage: >-
+    Live and historical availability for Identitrain Central and the services behind it.
+    Checks run automatically every few minutes from outside our infrastructure, so this page
+    stays up even when we don't. For a specific booking or account, email
+    [central@identitrain.com](mailto:central@identitrain.com).
   navbar:
     - title: Status
       href: /
