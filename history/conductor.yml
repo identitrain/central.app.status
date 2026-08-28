@@ -1,7 +1,7 @@
-url: https://conductor.identitrain.com/
-status: down
+url: https://conductor.identitrain.com/health
+status: up
 code: 200
-responseTime: 1179
-lastUpdated: 2026-08-28T09:58:39.487Z
+responseTime: 634
+lastUpdated: 2026-08-28T10:21:56.468Z
 startTime: 2026-08-28T09:58:24.004Z
 generator: Upptime <https://github.com/upptime/upptime>
