@@ -7,8 +7,7 @@ sites:
   - name: Course catalogue
     url: https://central.identitrain.com/tms/events
   - name: Conductor
-    url: https://conductor.identitrain.com/
-    expectedStatusCodes: [307]
+    url: https://conductor.identitrain.com/health
   - name: Content delivery
     url: https://content.identitrain.com/health
   - name: Courseware
