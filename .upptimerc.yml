@@ -20,7 +20,7 @@ sites:
 
 status-website:
   cname: status.identitrain.com
-  logoUrl: https://central.identitrain.com/images/logo-nav.webp
+  logoUrl: https://status.identitrain.com/logo.svg
   name: Identitrain Service Status
   introTitle: Identitrain Central — Service Status
   introMessage: >-
